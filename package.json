@@ -1,0 +1,67 @@
+{
+  "name": "@clake/ckio",
+  "version": "0.0.1",
+  "description": "like websocket io with golang",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+    "clean": "gulp clean",
+    "start": "NODE_ENV=development gulp",
+    "start-win": "set NODE_ENV=development&gulp",
+    "pack": "gulp publish",
+    "build": "NODE_ENV=production gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clakeboy/ckio.git"
+  },
+  "keywords": [
+    "websocket",
+    "ckio"
+  ],
+  "author": "Clake lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clakeboy/ckio/issues"
+  },
+  "homepage": "https://github.com/clakeboy/ckio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.24.5",
+    "connect-history-api-fallback": "^1.5.0",
+    "css-loader": "^0.28.7",
+    "del": "^3.0.0",
+    "file-loader": "^1.1.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-header": "^1.8.9",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-util": "^3.0.8",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.11.1",
+    "webpack-dev-middleware": "^3.1.0",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-merge": "^4.1.1",
+    "whatwg-fetch": "^3.0.0",
+    "@clake/react-bootstrap4": "^0.9.17"
+  }
+}
