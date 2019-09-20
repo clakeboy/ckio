@@ -1,6 +1,6 @@
 {
   "name": "@clake/ckio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "like websocket io with golang",
   "main": "lib/index.js",
   "scripts": {

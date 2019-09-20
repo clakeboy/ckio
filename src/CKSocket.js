@@ -102,6 +102,10 @@ class CKSocket {
         this.events[evt_name] = func;
     }
 
+    off(evt_name) {
+        delete this.events[evt_name];
+    }
+
     emit(evt_name,data) {
         let ack = arguments[2] || null;
         if (typeof ack === 'function') {
